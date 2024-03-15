@@ -2,3 +2,22 @@ title: Krinal Joshi
 description: My super cool portfolio
 #show_downloads: true
 theme: jekyll-theme-dinky
+github:
+  is_project_page: false
+
+# addtional_links
+info:
+- url: www.linkedin.com/in/krinaljoshi8
+  title: Linkedin
+- url: https://medium.com/@krinaljoshi
+  title: Medium
+- url: https://substack.com/@krinaljoshi
+  title: Substack
+
+# author
+author:
+email: krinaljoshi@outlook.com
+
+copyright:
+year: 2024
+name: krinal joshi
