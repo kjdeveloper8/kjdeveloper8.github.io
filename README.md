@@ -15,7 +15,7 @@ I am also a book reader and music lover ;-)
 - Test and analyze new models and tools to improve existing system 
 
 ### Education
-- ME Information Technology | Shantilal Shah Engineering College, Bhavnagar (2021)
+- <p>ME Information Technology @ Shantilal Shah Engineering College, Bhavnagar (2021)<p>
 
 
 ### Projects
@@ -33,7 +33,7 @@ I am also a book reader and music lover ;-)
 - Krinal Joshi, and Paresh Chauhan. “A Survey on Personality Trait Recognition from Handwriting: Approach and Applications.” IEEE, 2020. doi: 10.1109/ICISS49785.2020.9316093. [[Paper]](https://ieeexplore.ieee.org/document/9316093)
 
 \
-👉 [My blogs](my_blogs.md)
+#### 👉 [My blogs](my_blogs.md)
 
-👉 [Book list](book_list.md)
+#### 👉 [Book list](book_list.md)
   
