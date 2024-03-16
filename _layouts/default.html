@@ -17,17 +17,18 @@
     <div class="wrapper">
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <img src="/assets/img/kj_profile.png">
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul>
-          <li><a href="https://www.linkedin.com/in/krinaljoshi8/" style="color: white; background-color: transparent" target="_blank"> 🔗  Linkedin </a></li>
-          <li><a href="https://huggingface.co/krinal" style="color: white; background-color: transparent" target="_blank"> 🤗  Huggingface </a></li>
-          <li><a href="https://medium.com/@krinaljoshi" style="color: white; background-color: transparent" target="_blank"> Ⓜ️  Medium </a></li>
-          <li><a href="https://substack.com/@krinaljoshi" style="color: white; background-color: transparent" target="_blank"> 🖊️  Substack </a></li>
-          <li><a href="https://github.com/kjdeveloper8" style="color: white; background-color: transparent" target="_blank"> 🐙  GitHub </a></li>
+          <p class="header"><a href="https://www.linkedin.com/in/krinaljoshi8/" style="color: white; background-color: transparent" target="_blank"> 🔗  Linkedin </a></p>
+          <p class="header"><a href="https://huggingface.co/krinal" style="color: white; background-color: transparent" target="_blank"> 🤗  Huggingface </a></p>
+          <p class="header"><a href="https://medium.com/@krinaljoshi" style="color: white; background-color: transparent" target="_blank"> Ⓜ️  Medium </a></p>
+          <p class="header"><a href="https://substack.com/@krinaljoshi" style="color: white; background-color: transparent" target="_blank"> 🖊️ Substack </a></p>
+          <p class="header"><a href="https://github.com/kjdeveloper8" style="color: white; background-color: transparent" target="_blank"> 🐙  GitHub </a></p>
+          <p class="header" style="color:white"><small> 📧 krinaljoshi@outlook.com</small></p>
         </ul>
 
-        <p class="header" style="color:white"><small>Email: krinaljoshi@outlook.com</small></p>
         
         {% if site.github.is_project_page %}
           <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -38,7 +39,11 @@
       <section>
         {{ content }}
       </section>
-
+      <h5> Some test data </h5>
+      <p class="header"><a href="https://github.com/kjdeveloper8" style="color: white; background-color: transparent" target="_blank"> 🐙  GitHub </a></p>
+      <p class="header" style="color:white"><small> 📧 krinaljoshi@outlook.com</small></p>
+      <h5> Some test data </h5>
+      
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme ©2024, krinal joshi</small></p>
       </footer>
