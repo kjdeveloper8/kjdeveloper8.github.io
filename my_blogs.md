@@ -2,6 +2,12 @@
 
 ✍️ Blog Posts :
 
+##### Apr 8, 2024
+
+**[Why data scientists should avoid P-value](https://medium.com/@krinaljoshi/why-data-scientists-should-avoid-p-value-715b712cc7de)**
+
+---
+
 ##### Feb 29, 2024
 
 **[Broadcasting in pytorch](https://medium.com/@krinaljoshi/broadcasting-in-pytorch-fc438ee04cc5)**
