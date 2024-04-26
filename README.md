@@ -6,12 +6,12 @@ I have 1+ year experience in developing and analyzing machine learning model rel
 I am also a book reader and music lover ;-)
 
 ### Skills
-#### Programming: Python
-#### Database: MongoDB
-#### Machine Learning: Neural network, Huggingface transformer, PyTorch, NLTK
-#### NLP: Sentiment Analysis, Text classification, Named Entity Recognition, Spell correction, Parsing
-#### Audio: Text To Speech, Speech To Text, Voice Activity Detection, Automatic Speech recognition
-#### Other: Git
+- **Programming:** Python
+- **Database:** MongoDB
+- **Machine Learning:** Neural network, Huggingface transformer, PyTorch, NLTK
+- **NLP:** Sentiment Analysis, Text classification, Named Entity Recognition, Spell correction, Parsing
+- **Audio:** Text To Speech, Speech To Text, Voice Activity Detection, Automatic Speech recognition
+- **Other:** Git
 
 ### Experience
 **Software Developer @ Floatbot (Mar 22 - Dec 23)**
