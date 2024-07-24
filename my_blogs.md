@@ -2,6 +2,11 @@
 
 ✍️ Blog Posts :
 
+##### Jul 15, 2024
+
+**[NLP Roadmap](https://medium.com/@krinaljoshi/nlp-roadmap-2740a1029af2)**
+
+---
 ##### Apr 8, 2024
 
 **[Why data scientists should avoid P-value](https://medium.com/@krinaljoshi/why-data-scientists-should-avoid-p-value-715b712cc7de)**

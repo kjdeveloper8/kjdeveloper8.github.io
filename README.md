@@ -1,14 +1,14 @@
 # Krinal's Portfolio
 
 Hello, I am krinal.
-I have 1+ year experience in developing and analyzing machine learning model related to nlp and audio with my skills in text preprocessing, feature engineering, and model optimization.
+I have 1+ year experience in developing and analyzing machine learning model related to NLP and Audio with my skills in text preprocessing, feature engineering, and model optimization.
 
 I am also a book reader and music lover ;-)
 
 ### Skills
 - **Programming:** Python
-- **Database:** MongoDB
-- **Machine Learning:** Neural network, Huggingface transformer, PyTorch, NLTK
+- **Database:** Postgres
+- **Machine Learning:** Huggingface transformer, PyTorch, NLTK, Pandas, Scikit-learn, Seaborn, Wandb
 - **NLP:** Sentiment Analysis, Text classification, Named Entity Recognition, Spell correction, Parsing
 - **Audio:** Text To Speech, Speech To Text, Voice Activity Detection, Automatic Speech recognition
 - **Other:** Git
@@ -36,6 +36,8 @@ I am also a book reader and music lover ;-)
 ### Publication
 - Krinal Joshi, and Paresh Chauhan. “A Survey on Personality Trait Recognition from Handwriting: Approach and Applications.” IEEE, 2020. doi: 10.1109/ICISS49785.2020.9316093. [[Paper]](https://ieeexplore.ieee.org/document/9316093)
 
+
+#### 👉 [My Projects](my_projects.md)
 
 #### 👉 [My blogs](my_blogs.md)
 
