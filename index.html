@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Krinal Joshi</title>
+    <link rel="stylesheet" type="text/css" href="_layouts/style.css">
+  </head>
+  <body>
+    <!-- header: intro -->
+    <div id="dhead" class="container">
+      <div class="row">
+        <div id="dpic">
+          <img src="assets/img/me.jpeg"/>
+        </div>
+        <div id="ddesc">
+          <h1>Krinal Joshi</h1>
+          <h2>Machine learning | NLP | Speech | LLM | Research | Python 👩🏻‍💻</h2>
+          <div id="dico">
+            <a href="https://github.com/kjdeveloper8" target="_blank"> <img src="assets/img/ic_github.svg" class="iico"/></a>
+            <a href="https://huggingface.co/krinal" target="_blank"> <img src="assets/img/ic_huggingface.svg" class="iico"/></a>
+            <a href="https://www.kaggle.com/kmjoshi8" target="_blank"> <img src="assets/img/ic_kaggle.svg" class="iico"/></a>
+            <a href="https://medium.com/@krinaljoshi" target="_blank"> <img src="assets/img/ic_medium.svg" class="iico"/></a>
+            <img src="/assets/img/ic_email.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal"/>
+          </div>
+          <div id="demail"></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- experience -->
+    <div id="bio" class="container">
+      Hi, I'm Krinal Joshi, a writer and machine learning developer. I like to play with text. My focus is NLP and Speech in machine learning.
+
+    </div>
+
+    <!-- projects -->
+    <div id="my-project" class="container">
+      <div class="ctitle">My projects</div>
+      <div class="project">
+        <div class="ptitle"><a href="https://github.com/kjdeveloper8/nlp-projects">NLP Roadmap</a></div>
+        <div class="pdesc"> NLP roadmap a website to refresh the knowledge of nlp concepts like text preprocessing, parsing, classification, sentiment analysis, evaluation matrices and transformer concepts with example.</div>
+        <div class="pend">mkdocs, github_actions, nlp, transformer</div>
+        </div>
+
+      <div class="project">
+        <div class="ptitle"><a href="https://github.com/kjdeveloper8/podcast-notes">Podcast Notes</a></div>
+        <div class="pdesc"> A streamlit app to download and transcribe podcast episode with listen notes api. A request is send to listen notes, from response data like podcast title, episode id, audio url, thumbnail and transcibe url is parsed with beautifulsoup. Further transcibe stored in json format and display on streamlit app.</div>
+        <div class="pend"> listen_notes_api, streamlit, json</div>
+      </div>
+
+      <div class="project">
+        <div class="ptitle"><a href="https://github.com/kjdeveloper8/voice-assistant ">Voice Assistance</a></div>
+        <div class="pdesc"> Build a simple voice assistance with Huggingface api, OpenWakeWords and gTTS. Openwakeword's alexa model is used to detects wakeword 'alexa'. A query recording module records the audio and send a request to huggingface LLM model (model: Falcon) with api, and gTTS is used for response.</div>
+        <div class="pend"> gtts, llm, hf_api, wakewords </div>
+      </div>
+      
+      <!-- writing -->
+      <div class="container">
+        <div class="ctitle">My writing</div>
+        <div>I started writing on Medium. You can read it here: <a href="https://medium.com/@krinaljoshi"> medium blogs </a></div>
+        <ul class="nodot">
+          <li>Oct 2024 <a href="https://medium.com/@krinaljoshi/loss-functions-in-machine-learning-243db1f6558f">Loss functions in machine learning</a></li>
+          <li>Jul 2024 <a href="https://medium.com/@krinaljoshi/nlp-roadmap-2740a1029af2">NLP roadmap</a></li>
+          <li>Apr 2024 <a href="https://medium.com/@krinaljoshi/why-data-scientists-should-avoid-p-value-715b712cc7de">Why data scientist should avoid P-value</a></li>
+          <li>Feb 2024 <a href="https://medium.com/@krinaljoshi/broadcasting-in-pytorch-fc438ee04cc5">Broadcasting in Pytorch</a></li>
+          <li>Jan 2024 <a href="https://medium.com/@krinaljoshi/floating-points-in-deep-learning-understanding-the-basics-93459f77a266">Floating points in deep learning</a> my most viewed story :) </li>
+          <li>Dec 2023 <a href="https://medium.com/@krinaljoshi/explore-the-latest-ai-ml-research-papers-from-top-companies-3f4d725f58d2">Read industry papers from top companies</a></li>
+        </ul>
+      </div>
+      </div>
+
+    <!-- publications -->
+    <div class="container">
+      <div class="ctitle">Publications</div>
+        <div class="pub">
+          <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/9316093">Survey of personality trait recognition from Handwriting: Approach and applications</a></div>
+          <div class="pub-venue">IEEE 2021</div>
+          <div class="pub-authors">Krinal Joshi, Paresh Chauhan</div>
+        </div>
+    </div>
+
+    <!-- reading -->
+    <div id="dhead" class="container">
+      <div class="container">
+        <div class="ctitle">My Readings</div>
+        <h3><a href="_layouts/books.html"> 📚 Books</h3>
+        <!-- <h3><a href="_layouts/papers.html"> 📝 Papers</h3> -->
+      </div>
+    </div>
+
+    <!-- footer -->
+      <footer class="container">
+        <div class="foot"> &copy; krinal joshi, 2024
+          
+        </div>
+      </footer>
+    </div>
+
+    <!-- header script for email -->
+    <script type="text/javascript">
+      const rot13 = (message) => {
+        const alpha = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM';
+        return message.replace(/[a-z]/gi, letter => alpha[alpha.indexOf(letter) + 1]);
+      }
+      var e_is_shown = false;
+      document.getElementById('iemail').addEventListener("click", function(){
+        let demail = document.getElementById('demail');
+        let msg = "jqhmzkinrgh8298" + "@" + "flzhk.bnl"
+        demail.innerHTML = rot13(msg);
+        demail.style.opacity = e_is_shown ? 0 : 1;
+        e_is_shown = !e_is_shown;
+      })
+    </script>
+  </body>
+</html>
