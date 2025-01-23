@@ -87,13 +87,13 @@
       <div class="container">
         <div class="ctitle">My Readings</div>
         <h3><a href="books.html"> 📚 Books</h3>
-        <!-- <h3><a href="papers.html"> 📝 Papers</h3> -->
+        <h3><a href="papers.html"> 📝 Papers</h3>
       </div>
     </div>
 
     <!-- footer -->
       <footer class="container">
-        <div class="foot"> &copy; krinal joshi, 2024
+        <div class="foot"> Copyright &copy; <span id="year"></span>, krinal joshi
           
         </div>
       </footer>
@@ -114,5 +114,15 @@
         e_is_shown = !e_is_shown;
       })
     </script>
+
+    <!-- Update Copyright year -->
+      <script type="text/javascript">
+          const year = document.getElementById("year");
+          year.textContent = new Date().getFullYear();
+      </script>
+
+     <!-- Cloudflare Web Analytics -->
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9309df9b33d74fa98c46dc6938df476d"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>
